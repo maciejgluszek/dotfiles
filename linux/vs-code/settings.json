@@ -1,0 +1,98 @@
+// Place your settings in this file to overwrite the default settings
+{
+    "css.lint.duplicateProperties": "warning",
+    "css.lint.zeroUnits": "warning",
+    "css.lint.unknownVendorSpecificProperties": "warning",
+    "css.lint.important": "warning",
+    "css.validate": false,
+
+
+    "editor.detectIndentation": false,
+    "editor.fontFamily": "Consolas, 'Droid Sans Mono', 'Courier New', monospace, 'Droid Sans Fallback'",
+    "editor.fontSize": 16,
+    "editor.formatOnType": true,
+    "editor.lineHeight": 20,
+    "editor.mouseWheelZoom": true,
+    "editor.renderIndentGuides": false,
+    "editor.tabSize": 2,
+    "editor.wordWrap": "on",
+
+
+    "explorer.openEditors.visible": 0,
+
+
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/.DS_Store": true,
+        "**/bower_components": true,
+        "**/node_modules": true
+    },
+    "files.watcherExclude": {
+        "**/.git/objects/**": true,
+        "**/bower_components/**": true,
+        "**/node_modules/**": true
+    },
+
+
+    "git.autofetch": false,
+    "git.confirmSync": true,
+
+
+    "html.format.wrapLineLength": 0,
+    "html.format.indentInnerHtml": true,
+    "html.format.indentHandlebars": true,
+
+
+    "javascript.validate.enable": false,
+
+
+    "less.lint.duplicateProperties": "warning",
+    "less.lint.zeroUnits": "warning",
+    "less.lint.unknownVendorSpecificProperties": "warning",
+    "less.lint.important": "warning",
+    "less.validate": false,
+
+
+    "markdown.preview.fontFamily": "Consolas, 'Courier New', monospace",
+
+
+    "php.validate.run": "onType",
+
+
+    "projectManager.vscode.ignoredFolders": [
+      "node_modules",
+      "bower_components"
+    ],
+    "projectManager.git.ignoredFolders": [
+      "node_modules",
+      "bower_components"
+     ],
+
+
+    "scss.lint.duplicateProperties": "warning",
+    "scss.lint.zeroUnits": "warning",
+    "scss.lint.unknownVendorSpecificProperties": "warning",
+    "scss.lint.important": "warning",
+    "scss.validate": false,
+
+
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.fontFamily": "Consolas, 'Courier New', monospace",
+    "terminal.integrated.fontSize": 14,
+    "terminal.integrated.lineHeight": 1.4,
+
+
+    "typescript.tsdk": "./node_modules/typescript/lib/",
+
+
+    "workbench.editor.enablePreview": false,
+    "workbench.editor.enablePreviewFromQuickOpen": false,
+    "workbench.welcome.enabled": false,
+
+
+    "window.reopenFolders": "one",
+    "window.menuBarVisibility": "toggle",
+    "extensions.autoUpdate": false
+  }
