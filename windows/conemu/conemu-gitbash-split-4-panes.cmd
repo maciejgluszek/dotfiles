@@ -1,0 +1,4 @@
+-new_console:d:D:\"%ProgramFiles%\Git\git-cmd.exe" --no-cd --command=usr/bin/bash.exe -l -i -cur_console:n
+-new_console:d:D:\"%ProgramFiles%\Git\git-cmd.exe" --no-cd --command=usr/bin/bash.exe -l -i -cur_console:s1TVn
+-new_console:d:D:\"%ProgramFiles%\Git\git-cmd.exe" --no-cd --command=usr/bin/bash.exe -l -i -cur_console:s1THn
+-new_console:d:D:\"%ProgramFiles%\Git\git-cmd.exe" --no-cd --command=usr/bin/bash.exe -l -i -cur_console:s2THn

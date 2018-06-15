@@ -1,0 +1,34 @@
+function git_prompt() {
+  git rev-parse --is-inside-work-tree &>/dev/null || return
+
+  branch_name="$(git symbolic-ref --quiet --short HEAD 2> /dev/null || \
+                 git describe --all --exact-match HEAD 2> /dev/null || \
+                 git rev-parse --short HEAD 2> /dev/null || \
+                 echo -e "unknown")";
+
+  branch_dirty=$(git diff --no-ext-diff --quiet --ignore-submodules --exit-code || echo -e "*")
+
+  echo -e " (${1}${branch_name}${2}$branch_dirty)";
+
+  return
+}
+
+PS1='\[\033]0;${PWD//[^[:ascii:]]/?}\007\]'
+PS1="$PS1"$'\n'
+PS1="$PS1"'\[\033[36m\]'
+PS1="$PS1"'\w'
+
+if test -z "$WINELOADERNOEXEC"
+  then
+    GIT_EXEC_PATH="$(git --exec-path 2>/dev/null)"
+    COMPLETION_PATH="${GIT_EXEC_PATH%/libexec/git-core}"
+    COMPLETION_PATH="${COMPLETION_PATH%/lib/git-core}"
+    COMPLETION_PATH="$COMPLETION_PATH/share/git/completion"
+    PS1="$PS1"'\[\033[33m\]'
+    PS1+="\$(git_prompt)"
+fi
+
+PS1="$PS1"'\[\033[0m\]'
+PS1="$PS1"$'\n'
+PS1="$PS1"'> '
+PS1="$PS1"'\[\033[0m\]'

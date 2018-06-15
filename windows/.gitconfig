@@ -1,0 +1,15 @@
+[alias]
+	co = checkout
+	f = fetch
+	g = pull
+	l = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an %ae>%Creset' --abbrev-commit --
+	p = push
+	s = status
+[core]
+	excludesfile = 
+	attributesfile = ~/.gitattributes
+	safecrlf = false
+	autocrlf = true
+[user]
+	email = maciej.gluszek@gmail.com
+	name = Maciej Głuszek

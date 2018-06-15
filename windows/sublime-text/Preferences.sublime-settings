@@ -1,0 +1,23 @@
+{
+	"always_prompt_for_file_reload": true,
+	"animation_enabled": false,
+	"bold_folder_labels": true,
+	"caret_style": "phase",
+	"fade_fold_buttons": false,
+	"font_face": "Source Code Pro",
+	"font_size": 11,
+	"highlight_line": true,
+	"highlight_modified_tabs": true,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"line_padding_bottom": 1,
+	"line_padding_top": 1,
+	"remember_full_screen": true,
+	"tab_size": 2,
+	"theme": "Default.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"tree_animation_enabled": false,
+	"word_wrap": "false"
+}

@@ -1,0 +1,25 @@
+// Place your settings in this file to overwrite the default settings
+{
+  "editor.detectIndentation": false,
+  "editor.fontFamily": "'Source Code Pro', Monaco, Consolas, 'Courier New', monospace",
+  "editor.fontSize": 14,
+  "editor.lineHeight": 21,
+  "editor.mouseWheelZoom": true,
+  "editor.smoothScrolling": true,
+  "editor.tabSize": 2,
+  "files.trimTrailingWhitespace": true,
+  "markdown.preview.fontFamily": "'Source Code Pro', Monaco, Consolas, 'Courier New', monospace",
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.cursorStyle": "line",
+  "terminal.integrated.fontFamily": "'Source Code Pro', Monaco, Consolas, 'Courier New', monospace",
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+  "terminal.integrated.shellArgs.windows": [
+    "-l"
+  ],
+  "workbench.editor.enablePreview": false,
+  "workbench.editor.enablePreviewFromQuickOpen": false,
+  "window.restoreWindows": "none",
+  "window.menuBarVisibility": "toggle",
+  "workbench.startupEditor": "none"
+}
