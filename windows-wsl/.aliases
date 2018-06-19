@@ -1,0 +1,8 @@
+# navigation
+alias ..="cd .."
+alias ...="cd ../../"
+alias ....="cd ../../../"
+
+# shortcuts
+alias ls="ls -F --color=auto --show-control-chars"
+alias ll="ls -al --color=auto"
