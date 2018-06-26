@@ -70,6 +70,8 @@ if ! shopt -oq posix; then
   fi
 fi
 
+# load nvm - node manager
+
 # fix directory background colors
 LS_COLORS="ow=01;36;40"
 export LS_COLORS
@@ -78,4 +80,4 @@ export LS_COLORS
 export DISPLAY=:0
 
 # disable loading Windows PATH, add custom paths
-#PATH=$(/usr/bin/printenv PATH | /usr/bin/perl -ne 'print join(":", grep { !/\/mnt\/[a-z]/ } split(/:/));'):$HOME/.yarn/bin
+PATH=$(/usr/bin/printenv PATH | /usr/bin/perl -ne 'print join(":", grep { !/\/mnt\/[a-z]/ } split(/:/));'):$HOME/.yarn/bin
