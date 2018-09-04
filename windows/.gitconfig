@@ -9,7 +9,9 @@
 	excludesfile = 
 	attributesfile = ~/.gitattributes
 	safecrlf = false
-	autocrlf = true
+	autocrlf = false
 [user]
 	email = maciej.gluszek@gmail.com
 	name = Maciej Głuszek
+[credential]
+	helper = manager
