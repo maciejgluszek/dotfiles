@@ -3,3 +3,9 @@ alias ...="cd ../../"
 
 alias lynx="lynx -cfg /d/tools/lynx/lynx.cfg -lss=/d/tools/lynx/lynx.lss"
 alias mc="far ."
+
+# Azure command line tools
+alias az="az.cmd"
+
+# Amazon command line tools
+alias aws="aws.cmd"
