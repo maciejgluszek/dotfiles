@@ -15,3 +15,8 @@
 	name = Maciej Głuszek
 [credential]
 	helper = manager
+[difftool "sourcetree"]
+	cmd = '' \"$LOCAL\" \"$REMOTE\"
+[mergetool "sourcetree"]
+	cmd = "'' "
+	trustExitCode = true

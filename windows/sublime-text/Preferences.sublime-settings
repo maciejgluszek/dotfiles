@@ -3,6 +3,7 @@
 	"animation_enabled": false,
 	"bold_folder_labels": true,
 	"caret_style": "phase",
+	"color_scheme": "Packages/Color Scheme - Default/Monokai.sublime-color-scheme",
 	"fade_fold_buttons": false,
 	"font_face": "Source Code Pro",
 	"font_size": 11,
@@ -16,7 +17,7 @@
 	"line_padding_top": 1,
 	"remember_full_screen": true,
 	"tab_size": 2,
-	"theme": "Default.sublime-theme",
+	"theme": "Spacefunk (Blue Monday).sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"tree_animation_enabled": false,
 	"word_wrap": "false"
