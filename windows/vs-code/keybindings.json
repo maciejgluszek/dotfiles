@@ -6,5 +6,15 @@
     {
       "key": "ctrl+shift+a",
       "command": "workbench.action.tasks.runTask"
+    },
+    {
+      "key": "ctrl+shift+a",
+      "command": "workbench.action.debug.restart",
+      "when": "inDebugMode"
+    },
+    {
+      "key": "ctrl+s",
+      "command": "workbench.action.debug.restart",
+      "when": "inDebugMode"
     }
   ]
