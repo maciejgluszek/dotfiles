@@ -79,5 +79,8 @@ export LS_COLORS
 # set external display
 export DISPLAY=:0
 
+# screen
+export SCREENDIR=$HOME/.screen
+
 # disable loading Windows PATH, add custom paths
 PATH=$(/usr/bin/printenv PATH | /usr/bin/perl -ne 'print join(":", grep { !/\/mnt\/[a-z]/ } split(/:/));'):$HOME/.yarn/bin
