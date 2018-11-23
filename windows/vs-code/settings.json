@@ -1,11 +1,17 @@
 // Place your settings in this file to overwrite the default settings
 {
+  "breadcrumbs.enabled": true,
   "editor.detectIndentation": false,
   "editor.fontFamily": "'Source Code Pro', 'DejaVu Sans Mono', 'Source Code Pro', Monaco, Consolas, 'Courier New', monospace",
+  "editor.fontSize": 15,
   "editor.lineHeight": 21,
   "editor.mouseWheelZoom": true,
+  "editor.renderControlCharacters": true,
+  "editor.renderWhitespace": "none",
   "editor.smoothScrolling": true,
   "editor.tabSize": 2,
+  "extensions.showRecommendationsOnlyOnDemand": true,
+  "extensions.ignoreRecommendations": true,
   "files.trimTrailingWhitespace": true,
   "markdown.preview.fontFamily": "'Source Code Pro', 'DejaVu Sans Mono', Monaco, Consolas, 'Courier New', monospace",
   "terminal.integrated.cursorBlinking": true,
@@ -18,9 +24,5 @@
   "workbench.editor.enablePreview": false,
   "workbench.editor.enablePreviewFromQuickOpen": false,
   "window.restoreWindows": "none",
-  "workbench.startupEditor": "none",
-  "editor.renderControlCharacters": true,
-  "editor.renderWhitespace": "none",
-  "breadcrumbs.enabled": true,
-  "editor.fontSize": 15
+  "workbench.startupEditor": "none"
 }
