@@ -71,6 +71,7 @@ if ! shopt -oq posix; then
 fi
 
 # start cron service
+# TODO: check if service is already running
 sudo service cron start
 
 # fix directory background colors
