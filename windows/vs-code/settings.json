@@ -24,5 +24,6 @@
   "workbench.editor.enablePreview": false,
   "workbench.editor.enablePreviewFromQuickOpen": false,
   "window.restoreWindows": "none",
-  "workbench.startupEditor": "none"
+  "workbench.startupEditor": "none",
+  "python.jediEnabled": false
 }
