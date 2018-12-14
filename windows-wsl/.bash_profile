@@ -94,3 +94,6 @@ export N_PREFIX="$HOME/n"; [[ :$PATH: == *":$N_PREFIX/bin:"* ]] || PATH+=":$N_PR
 
 # disable loading Windows PATH, add custom paths
 PATH=$(/usr/bin/printenv PATH | /usr/bin/perl -ne 'print join(":", grep { !/\/mnt\/[a-z]/ } split(/:/));'):$HOME/.yarn/bin
+
+export GEM_HOME=$HOME/.gems
+export PATH=$HOME/.gems/bin:$PATH
