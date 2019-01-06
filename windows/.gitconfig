@@ -9,14 +9,9 @@
 	excludesfile = 
 	attributesfile = ~/.gitattributes
 	safecrlf = false
-	autocrlf = false
+	autocrlf = true
 [user]
 	email = maciej.gluszek@gmail.com
 	name = Maciej Głuszek
 [credential]
 	helper = manager
-[difftool "sourcetree"]
-	cmd = '' \"$LOCAL\" \"$REMOTE\"
-[mergetool "sourcetree"]
-	cmd = "'' "
-	trustExitCode = true
