@@ -1,6 +1,8 @@
 alias ..="cd .."
 alias ...="cd ../../"
 
+alias ll="ls -al --color=auto"
+
 alias lynx="lynx -cfg /d/tools/lynx/lynx.cfg -lss=/d/tools/lynx/lynx.lss"
 alias mc="far ."
 

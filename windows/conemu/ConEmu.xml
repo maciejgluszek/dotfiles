@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <key name="Software">
 	<key name="ConEmu">
-		<key name=".Vanilla" modified="2018-12-29 04:19:11" build="180626">
+		<key name=".Vanilla" modified="2019-01-17 21:11:19" build="190108">
 			<value name="StartType" type="hex" data="01"/>
 			<value name="CmdLine" type="string" data="C:\Windows\System32\bash.exe ~; DISPLAY=:0 gnome-terminal"/>
 			<value name="StartTasksFile" type="string" data="@D:\tools\conemu\conemu-gitbash-single-window.cmd"/>
@@ -803,6 +803,7 @@
 			<value name="StatusBar.Hide.WMode" type="hex" data="01"/>
 			<value name="Language" type="string" data="en"/>
 			<value name="RestoreInactive" type="hex" data="00"/>
+			<value name="AutoTrimSingleLine" type="hex" data="00"/>
 		</key>
 		<key name="1.cmd" modified="2017-11-24 11:46:32" build="171109">
 			<value name="StartType" type="hex" data="02"/>
